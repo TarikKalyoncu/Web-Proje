@@ -129,40 +129,6 @@
 
 /* Slogan */
 
-.tirnak1 {
-  color: #f4b70b;
-  font-size: 52px;
-  font-weight: bold;
-}
-.soz {
-  font-size: 40px;
-  color: white;
-}
-.slogan {
-  background-image: url(resimler/ust-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-}
-.roket-icon {
-  font-size: 150px;
-  color: white;
-}
-
-/* Çalışmalarımız */
-
-.calisma {
-  padding: 5px;
-  border: 1px solid transparent;
-}
-.calisma:hover {
-  border: 1px solid gray;
-  cursor: pointer;
-}
-.calisma img {
-  height: 150px;
-}
-
 /* Footer Kısmı */
 
 .footer {
@@ -820,33 +786,14 @@ ol.s {
 .generic .container .row .active {
   scale: 1.1;
 
-  
-
-
-  box-shadow: rgba(62, 13, 13, 0.4) -5px 5px,
-  rgba(58, 11, 11, 0.3) -10px 10px, rgba(58, 7, 7, 0.2) -15px 15px,
-  rgba(33, 2, 2, 0.1) -20px 20px, rgba(45, 10, 3, 0.05) -25px 25px;
-transition: transform 0.3s; /* Animation */
-
-
-
-
-
-
-
+  box-shadow: rgba(62, 13, 13, 0.4) -5px 5px, rgba(58, 11, 11, 0.3) -10px 10px,
+    rgba(58, 7, 7, 0.2) -15px 15px, rgba(33, 2, 2, 0.1) -20px 20px,
+    rgba(45, 10, 3, 0.05) -25px 25px;
+  transition: transform 0.3s; /* Animation */
 }
 
-
-.pota{
-
+.pota {
   background: url(resimler/pota.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-
-
-
- 
 }
-
-
-
