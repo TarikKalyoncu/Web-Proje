@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+ 
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teknoloji Şirket Sitesi</title>
+    
+ 
+    <link rel="stylesheet" href="stil.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+
+
+
+
+
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="bootstrap.js"></script>
+
+
+    <style>
+
+body{
+
+background-color: rgb(30, 39, 71)
+
+}
+
+html{
+
+  scroll-behavior: smooth;
+}
+    </style>
+
+
+  </head>
+  <body onresize="test()">
+    
+
+
+
+
+    <div class="ust-kisim3 ">
+      <nav class="navbar navbar-expand-lg nav-bg ">
+        <div class="container p-0 ">
+          
+          <button
+            class="navbar-toggler me-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+      
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pozisyon mx-5   ">
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link active px-4" aria-current="page" href="index.html"
+                  >Hakkımda</a
+                >
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link px-4" href="özgeçmiş.html">Özgeçmiş</a>
+                <span class="ayrac ">|</span>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Şehrim
+                  
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                
+              </li>
+             
+              <li class="nav-item d-flex align-items-center p-2">
+                <span class="ayrac ">|</span>
+                <a class="nav-link px-4" href="Şehrim.html">İlgi </a>
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link px-4k" href="iletisim.html">İletişim</a>
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <i class="fa-solid fa-user" style="color: #fff7f7;"></i>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: transparent ;" style="border: transparent;">
+                 <span class="" style="color: white;">Giriş</span>
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade deneme" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <div class="container text-center">
+                          <div class="row d-flex align-items-center">
+                            <div class="col-8">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Kullanıcı Giriş</h1>
+                            </div>
+                            <div class="col-4">
+                              <i class="fa-solid fa-passport fa-6x " style="color: #ffffff; "></i>
+                            </div>
+                         
+                          </div>
+                        </div>
+                    
+
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                          <i class="fa-sharp fa-solid fa-xmark" style="color: #000000; "></i>
+                        </button>
+
+                      </div>
+                      <div class="modal-body container2">
+                        <form>
+                          <div class="input-group mb-4">
+                            <div class="input-group-text rounded-0 deneme  text-white ">
+                              <i class="fa-solid fa-user" style="color: #000000;"></i>
+                            </div>
+                            <input type="text" class="form-control rounded-0 border-dark text-white bg-transparent"
+                              placeholder="NAME *" required>
+                          </div>
+                          <div class="input-group">
+                            <div class="input-group-text rounded-0 bg-danger border-dark text-white">
+                              <i class="fa-solid fa-key" style="color: #000000;"></i>
+                            </div>
+                            <input type="email" class="form-control rounded-0  text-white bg-transparent"
+                          placeholder=" EMAIL " required>  
+                          </div>
+                          <div class="mb-3 form-check mt-2">
+                            <input type="checkbox" class="form-check-input " id="exampleCheck1">
+                            <label class="form-check-label " for="exampleCheck1" style="color: white;">Check me out</label>
+                          </div>
+                          <button type="submit btn" class="btn btn-danger">Giriş Yap</button>
+                        </form>
+
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              
+
+
+              </li>
+              
+               
+          </div>
+        </div>
+      </nav>
+
+      
+
+      <button id="back-to-top-btn"><i class="fas fa-angle-double-up "></i></button>
+      
+    </div>
+
+
+    <div class="bg bg-image4">
+        <div class="caption">
+         
+
+
+
+
+
+
+
+
+
+
+
+     
+        
+
+
+            
+      <div id="owl-demo2" class="owl-carousel owl-theme " style="height: 100%;"  >
+            
+
+        <div class="item">
+          <a href="#kart1" id="photo1">
+            <img src="resimler/pierre-loti-tepesi-manzara-654x490.jpg" alt="Owl Image"style="height: 25vh;" > <span class="font-weight-bold ">  Pierre Loti Tepesi</span>
+          </a>
+        
+        </div>
+
+
+
+        <div class="item">
+          <a href="#kart2" id="photo2">
+            <img src="resimler/ayasofya.jpg" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Ayasofya</span>
+          </a>
+      </div>
+
+      <div class="item">
+        <a href="#kart3" id="photo3">
+          <img src="resimler/çarşı.jpg" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Kapalı Çarşı
+          </span>
+        </a>
+    </div>
+  
+    <div class="item">
+      <a href="#kart4" id="photo4">
+        <img src="resimler/yerebatan.jpg" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Yerebatan Sarnıcı
+        </span>
+      </a>
+  </div>
+  
+  <div class="item">
+    <a href="#kart5" id="photo5">
+      <img src="resimler/galata.jpg" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Galata Kulesi</span>
+    </a>
+  </div>
+  
+  <div class="item">
+    <a href="#kart6" id="photo6">
+      <img src="resimler/rumeli-fortress-museum.jpg" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Rumeli Hisarı
+      </span>
+    </a>
+  </div>
+  
+  <div class="item">
+    <a href="#kart6" id="photo7">
+      <img src="resimler/dolma.webp" alt="Owl Image"style="height: 25vh;" >  <span class="font-weight-bold ">  Dolmabahçe Sarayı</span>
+    </a>
+  </div>
+
+      </div>
+
+
+
+
+   
+
+
+
+
+
+
+      
+   
+     
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="team" class="generic" >
+      <div class="container">
+        <h1 class="display-5 text-light mb-5">İSTANBUL HAKKINDA</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 p-0" >
+            <div class="d-grid btn-info py-5" >
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-info rounded-0 py-5  " data-bs-toggle="modal"
+                data-bs-target="#exampleModal5" style="background-color: transparent;">
+                <span class="lead ">Tarihçe</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3  p-0">
+            <div class="d-grid btn-info py-5">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2">
+                <span class="lead">Nüfus</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3  p-0">
+            <div class="d-grid btn-info py-5">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
+                data-bs-target="#exampleModal3">
+                <span class="lead">İlçeler</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3  p-0">
+            <div class="d-grid bg-info py-5">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-info rounded-0 py-5" data-bs-toggle="modal"
+                data-bs-target="#exampleModal4">
+                <span class="lead">Ünlü Mekanlar</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+            <div class="modal-body" style="background-color: #ffffff;">
+              <img src="resimler/d95e6832254a4bd5974ad2a45d9a6932.jpg" class="img-fluid">
+              <h5 class="lead text-dark mt-2 font-weight-bold py-2">TARİHÇE</h5>
+             
+              <p>
+
+
+                İstanbul yaklaşık 1600 yıl boyunca, M.S. 330'dan 1922'ye kadar bulunan dönemde; sırasıyla Roma İmparatorluğu (330-395), Bizans İmparatorluğu (395-1204, 1261-1453), Latin İmparatorluğu (1204-1261) ve Osmanlı İmparatorluğu (1453-1922) olmak üzere dört farklı imparatorluğa başkentlik yapmıştır.
+              </p>
+
+              <p>
+
+                Bu imparatorlukların üçü, var oldukları dönemde dünyanın iktidar sahibi ve en güçlü devletleri olarak tarihe geçmiştir. Hepsinin İstanbul'dan yönetildiği düşünüldüğünde, şehrin tarihsel önemi ve değeri kolaylıkla anlaşılabilir.
+              </p>
+  
+              <div class="btn-group w-100 d-flex justify-content-center border-bottom border-top border-dark py-3 bg-light" role="group" aria-label="Basic mixed styles example">
+                
+                <a href="https://tr.wikipedia.org/wiki/%C4%B0stanbul_tarihi" target="_blank" ><i class="fa-brands fa-wikipedia-w fa-3x px-4 " style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/istanbulbuyuksehirbld/?hl=tr" target="_blank" ><i class="fa-brands fa-instagram fa-3x" style="color: #6e0303;"></i></a>
+                <a href="https://twitter.com/istanbulbld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fa-brands fa-twitter fa-3x px-4" style="color: #595eff;"></i></a>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal 2 -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+            <div class="modal-body" style="background-color: #ffffff;">
+              <img src="resimler/d95e6832254a4bd5974ad2a45d9a6932.jpg" class="img-fluid">
+              <h5 class="lead text-dark mt-2 font-weight-bold py-2">BİLGİLER</h5>
+              <p>İstanbul, Türkiye'de Marmara Bölgesi'nde yer alan şehir ve Türkiye'nin 81 ilinden biridir. Ülkenin nüfus bakımından en çok göç alan ve en kalabalık ilidir. Ekonomik, tarihî ve sosyo-kültürel açıdan önde gelen şehirlerden biridir. Şehir, iktisadi büyüklük açısından dünyada 34. sırada yer alır.</p>
+              <ul class="list-unstyled">
+                <li> <span class="font-weight-bold"> Alan:</span>   5.461 km²</li>
+                <li> <span class="font-weight-bold"> Rakım:</span>    40 m</li>
+                
+                  <li> <span class="font-weight-bold"> Nüfus:</span>   15.907.951 (2022)</li>
+                  <li> <span class="font-weight-bold"> İlçe Sayısı:</span>   39</li>
+                
+              
+              </ul>
+  
+              <div class="btn-group w-100 d-flex justify-content-center border-bottom border-top border-dark py-3 bg-light" role="group" aria-label="Basic mixed styles example">
+                
+                <a href="https://tr.wikipedia.org/wiki/%C4%B0stanbul_tarihi" target="_blank" ><i class="fa-brands fa-wikipedia-w fa-3x px-4 " style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/istanbulbuyuksehirbld/?hl=tr" target="_blank" ><i class="fa-brands fa-instagram fa-3x" style="color: #6e0303;"></i></a>
+                <a href="https://twitter.com/istanbulbld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fa-brands fa-twitter fa-3x px-4" style="color: #595eff;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+            <div class="modal-body" style="background-color: #ffffff;">
+              <img src="resimler/d95e6832254a4bd5974ad2a45d9a6932.jpg" class="img-fluid">
+              <h5 class="lead text-dark mt-2 font-weight-bold py-2" >İLÇELER</h5>
+              <p>6 Şubat 2023 TÜİK verilerine göre 39 İlçe ve belediye, bu belediyelerde toplam 964 mahalle bulunmaktadır.</p>
+
+                <div class="row mx-5">
+
+<div class="col-6 ">
+  <ol class="list-unstyled s">
+    <li>Adalar</li>
+    <li>Arnavutköy</li>
+    <li>Ataşehir</li>
+    <li>Avcılar</li>
+    <li>Bağcılar</li>
+    <li>Bahçelievler</li>
+    <li>Bakırköy</li>
+    <li>Başakşehir </li>
+    <li>Bayrampaşa</li>
+    <li>Beşiktaş</li>
+    <li>Beykoz</li>
+    <li>Beyoğlu</li>
+    <li>Büyükçekmece </li>
+    <li>Çatalca</li>
+    <li>Çekmeköy</li>
+    <li>Esenler</li>
+    <li>Esenyurt </li>
+    <li>Eyüpsultan</li>
+  </ol>
+
+</div>
+<div class="col-6 ">
+  <ol class="list-unstyled s">
+    <li>Fatih </li>
+    <li>Gaziosmanpaşa</li>
+    <li>Güngören</li>
+    <li>Kadıköy</li>
+    <li>Kâğıthane</li>
+    <li>Kartal</li>
+    <li>Küçükçekmece</li>
+    <li>Maltepe</li>
+    <li>Pendik</li>
+    <li>Sancaktepe</li>
+    <li>Silivri</li>
+    <li>Sultanbeyli</li>
+    <li>Sultangazi</li>
+    <li>Şile</li>
+    <li>Şişli</li>
+    <li>Tuzla</li>
+    <li>Ümraniye</li>
+    <li>Üsküdar</li>
+  </ol>
+  
+</div>
+
+                </div>
+              
+  
+                <div class="btn-group w-100 d-flex justify-content-center border-bottom border-top border-dark py-3 bg-light" role="group" aria-label="Basic mixed styles example">
+                
+                  <a href="https://tr.wikipedia.org/wiki/%C4%B0stanbul_tarihi" target="_blank" ><i class="fa-brands fa-wikipedia-w fa-3x px-4 " style="color: #000000;"></i></a>
+                  <a href="https://www.instagram.com/istanbulbuyuksehirbld/?hl=tr" target="_blank" ><i class="fa-brands fa-instagram fa-3x" style="color: #6e0303;"></i></a>
+                  <a href="https://twitter.com/istanbulbld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fa-brands fa-twitter fa-3x px-4" style="color: #595eff;"></i></a>
+                </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Modal 2 -->
+      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+            <div class="modal-body" style="background-color: #ffffff;">
+              <img src="resimler/d95e6832254a4bd5974ad2a45d9a6932.jpg" class="img-fluid">
+              <h5 class="lead text-dark mt-2 font-weight-bold py-2">GEZİLECEK YERLER</h5>
+              <p>Dile kolay tam 8 bin yıllık bir yerleşim yeri İstanbul.
+
+                Nice medeniyet bu şehri almak için sefere çıktı.İstanbul’da gezilecek yerlerin pek çoğu, insana hayatı boyunca farklı yaşlarda tekrar gördüğünde farklı çağrışımlar yapıyor ve anıları tazeliyor.</p>
+                <div class="row mx-5">
+
+
+
+                
+                <div class="col-6 ">
+                  <ol class="list-unstyled s">
+                    <li>Ayasofya</li>
+                    <li>Topkapı Sarayı</li>
+                    <li>Kapalı Çarşı </li>
+                    <li>Yerebatan Sarnıcı</li>
+                    <li>Galata Kulesi</li>
+                 
+                  </ol>
+                
+                </div>
+                <div class="col-6 ">
+                  <ol class="list-unstyled s">
+                    <li>Rumeli Hisarı </li>
+                    <li>Dolmabahçe Sarayı</li>
+                    <li>Aya Yorgi Manastırı</li>
+                    <li>Kız Kulesi</li>
+                    <li>Pierre Loti Tepesi</li>
+                
+                  </ol>
+                  
+                </div>
+              </div>
+              <div class="btn-group w-100 d-flex justify-content-center border-bottom border-top border-dark py-3 bg-light" role="group" aria-label="Basic mixed styles example">
+                
+                <a href="https://tr.wikipedia.org/wiki/%C4%B0stanbul_tarihi" target="_blank" ><i class="fa-brands fa-wikipedia-w fa-3x px-4 " style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/istanbulbuyuksehirbld/?hl=tr" target="_blank" ><i class="fa-brands fa-instagram fa-3x" style="color: #6e0303;"></i></a>
+                <a href="https://twitter.com/istanbulbld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" ><i class="fa-brands fa-twitter fa-3x px-4" style="color: #595eff;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+    </section>
+
+
+
+
+    <section id="blog " class="generic place ">
+      <div class="container  ">
+        <h1 class="display-5 text-light  line font-italic">TANITIM</h1>
+     <br><br>
+        <div class="row" >
+          <div class="col-md-6 col-lg-4  cards">
+  
+            <div class="card  border-5  x" id="kart1">
+              <img src="resimler/pierre-loti-tepesi-manzara-654x490.jpg" class="card-img-top " style="height: 26vh;">
+              <div class="card-body ps-3 bg-white"  style="height: 350px;">
+                <h5 class="lead text-uppercase text-light mb-4 text-dark">
+                #1
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Pierre Loti Tepesi
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  İstanbul'un Eyüpsultan ilçesinde bir tepedir. Tepe adını, 1876 yılında İstanbul'a gelerek buraya yerleşen ve sık sık bu tepedeki bir kıraathaneye gelmesiyle tanınan Fransız roman yazarı ve doğu bilimci Julien Viaud'dan almıştır. Tepe ve burada bulunan aynı adlı çay bahçesi İstanbul'a gelen turistlerin de sık sık ziyaret ettiği yerdir.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                          İstanbul |
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text">
+                        Eyüpsultan
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+          <div class="col-md-6 col-lg-4  ">
+  
+            <div class="card  border-5  mb-5 y " id="kart2">
+              <img src="resimler/ayasofya.jpg" class="card-img-top " style="height: 26vh;">
+              <div class="card-body ps-3 bg-white " style="height: 350px;">
+                <h5 class="lead text-uppercase text-dark mb-4">
+                  #2
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Ayasofya
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  İstanbul'da yer alan bir cami ve eski bazilika, katedral ve müzedir. Bizans İmparatoru I. Justinianus tarafından, 532-537 yılları arasında İstanbul'un tarihî yarımadasındaki eski şehir merkezine inşa ettirilmiş bazilika planlı bir patrik katedrali olmuştur.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                          İstanbul |
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text ">
+                          Fatih
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-md-6 col-lg-4  " >
+  
+            <div class="card  border-5  z"id="kart3" >
+              <img src="resimler/çarşı.jpg" class="card-img-top " style="height: 26vh;">
+              <div class="card-body ps-3 bg-white"  style="height: 350px;">
+                <h5 class="lead text-uppercase text-dark mb-4">
+                  #3
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Kapalı Çarşı
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  Kapalıçarşı, İstanbul kentinin merkezinde Beyazıt, Nuruosmaniye ve Mercan semtlerinin ortasında yer alan dünyanın en büyük çarşısı ve en eski kapalı çarşılarından biri. Kapalıçarşı'da yaklaşık 4.000 dükkân bulunmaktadır ve bu dükkânlarda toplam çalışan sayısı yaklaşık 25.000'dir.
+  
+                </p>
+                
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                          İstanbul |
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text">
+                          Fatih
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+
+
+          
+          <div class="col-md-6 col-lg-4  ">
+  
+            <div class="card  border-5 h " id="kart4">
+              <img src="resimler/yerebatan.jpg" class="card-img-top ">
+              <div class="card-body ps-3 bg-white"  style="height: 350px;">
+                <h5 class="lead text-uppercase text-dark mb-4">
+                  #4
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Yerebatan Sarnıcı
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  Yerebatan Sarnıcı İstanbul'da şehrin su ihtiyacını karşılamak üzere 526-527 senelerinde yaptırılmış kapalı su sarnıcı. Ayasofya'nın güneybatısında, Soğukçeşme Sokağı'ndadır. Suyun içinden yükselen pek çok mermer sütun nedeniyle halk arasında Yerebatan Sarayı olarak isimlendirilmektedir.
+                </p>
+                
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                         İstanbul|
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text">
+                          Fatih
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+
+
+
+          
+          <div class="col-md-6 col-lg-4  ">
+  
+            <div class="card  border-5 j " id="kart5">
+              <img src="resimler/galata.jpg" class="card-img-top ">
+              <div class="card-body ps-3 bg-white"  style="height: 350px;">
+                <h5 class="lead text-uppercase text-dark mb-4">
+                  #5
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Galata Kulesi
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  İstanbul'un Beyoğlu ilçesinde bulunan bir kuledir. Adını, bulunduğu Galata semtinden alır. Galata Surları dahilinde bir gözetleme kulesi olarak inşa edilen kule, farklı dönemlerde farklı amaçlarla kullanılmasının ardından 2020'den itibaren, bir sergi mekânı ve müze olarak hizmet verir.
+  
+                </p>
+                
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                          İstanbul |
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text">
+                          Beyoğlu
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+
+          
+          <div class="col-md-6 col-lg-4  ">
+  
+            <div class="card  border-5  k" id="kart6">
+              <img src="resimler/rumeli-fortress-museum.jpg" class="card-img-top img-fluid" style="height: 28.5vh;">
+              <div class="card-body ps-3 bg-white"  >
+                <h5 class="lead text-uppercase text-dark mb-4">
+                  #6
+                </h5>
+                <h6 class="card-title text-uppercase text-dark font-weight-bold">
+                  Rumeli Hisarı
+                </h6>
+                <p class="card-text text-dark font-italic">
+                  Rumeli Hisarı İstanbul'un Sarıyer ilçesinde, Boğaziçi'nde bulunan ve bulunduğu semte adını veren hisar. Fatih Sultan Mehmet tarafından İstanbul'un Fethi'nden önce, Karadeniz'den gelebilecek saldırıları engellemek amacıyla İstanbul Boğazı'nın en dar yerine, Anadolu yakasındaki Anadolu Hisarı'nın tam karşısına inşa ettirilmiştir.
+  
+                </p>
+                
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+                      <i class="bi bi-clock">
+                        <span class="align-middle">
+                         İstanbul |
+                        </span>
+                      </i>
+                    </small>
+                  </li>
+                  <li class="list-inline-item">
+                    <small class="text-muted">
+  
+                      <span class="align-middle">
+                        <i class="bi bi-chat-left-text">
+                          Sarıyer
+                        </i>
+                      </span>
+                    </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+      
+      </div>
+    </section>
+
+
+  
+  
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<div class="container-fluid footer">
+  <div class="row">
+    <div
+      class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="icons">
+        <i class="fa-brands fa-instagram-square fa-3x me-2"></i>
+        <i class="fa-brands fa-facebook-square fa-3x me-2"></i>
+        <i class="fa-brands fa-twitter-square fa-3x me-2"></i>
+        <i class="fa-brands fa-youtube fa-3x"></i>
+      </div>
+      <p class="mt-3">© Copyright 2022 Tüm Hakları Saklıdır.</p>
+      <p>Tasarım Bilişim Teknoloji</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+ 
+       
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
+
+  
+
+<script src="jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="scirpt.js">
+
+
+</script>
+
+  </body>
+</html>
+
+
+
+
+<a href="https://tr.wikipedia.org/wiki/%C4%B0stanbul_tarihi" target="_blank" ><i class="fa-solid fa-chess-knight-piece" style="color: #000000;"></i></a>
+
+
+
