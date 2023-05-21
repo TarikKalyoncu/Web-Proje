@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teknoloji Şirket Sitesi</title>
+    <title>İlgi Sayfası</title>
     
- 
     <link rel="stylesheet" href="stil.css" />
+    <link rel="stylesheet" href="variables.css">
    
     <link
       rel="stylesheet"
@@ -15,9 +15,12 @@
     />
 
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
 
-
+    <link rel="icon" type="image/x-icon" href="resimler/t.icon.png" class="border-5">
 
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -80,21 +83,21 @@ height: 100vh;
                 </a>
                 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item " href="şehrim.html">Şehir</a></li>
+           
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="mirasımız.html">Mirasımız</a></li>
                 </ul>
                 
               </li>
              
               <li class="nav-item d-flex align-items-center p-2">
                 <span class="ayrac ">|</span>
-                <a class="nav-link px-4" href="Şehrim.html">İlgi </a>
+                <a class="nav-link px-4" href="ilgi.html">İlgi </a>
                 <span class="ayrac">|</span>
               </li>
               <li class="nav-item d-flex align-items-center p-2">
-                <a class="nav-link px-4k" href="iletisim.html">İletişim</a>
+                <a class="nav-link px-4k" href="iletişim.html">İletişim</a>
                 <span class="ayrac">|</span>
               </li>
               <li class="nav-item d-flex align-items-center p-2">
@@ -129,26 +132,26 @@ height: 100vh;
 
                       </div>
                       <div class="modal-body container2">
-                        <form>
+                        <form action="post.php" method="post">
                           <div class="input-group mb-4">
                             <div class="input-group-text rounded-0 deneme  text-white ">
                               <i class="fa-solid fa-user" style="color: #000000;"></i>
                             </div>
-                            <input type="text" class="form-control rounded-0 border-dark text-white bg-transparent"
+                            <input name="text" class="form-control rounded-0 border-dark text-white bg-transparent"
                               placeholder="NAME *" required>
                           </div>
                           <div class="input-group">
                             <div class="input-group-text rounded-0 bg-danger border-dark text-white">
                               <i class="fa-solid fa-key" style="color: #000000;"></i>
                             </div>
-                            <input type="email" class="form-control rounded-0  text-white bg-transparent"
+                            <input name="email" class="form-control rounded-0  text-white bg-transparent"
                           placeholder=" EMAIL " required>  
                           </div>
                           <div class="mb-3 form-check mt-2">
                             <input type="checkbox" class="form-check-input " id="exampleCheck1">
                             <label class="form-check-label " for="exampleCheck1" style="color: white;">Check me out</label>
                           </div>
-                          <button type="submit btn" class="btn btn-danger">Giriş Yap</button>
+                         <input type="submit" value="gönder">
                         </form>
 
                       </div>

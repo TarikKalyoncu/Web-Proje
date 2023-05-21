@@ -1,7 +1,10 @@
+body {
+  font-family: var(--yazi-tipi) !important;
+}
 .ayrac {
   font-size: 20px;
   margin: 0px 20px;
-  color: white;
+  color: var(--white);
 }
 .nav-bg {
   background-color: rgba(122, 122, 122, 0.356);
@@ -11,7 +14,7 @@
   height: calc(50vh - 70px);
 }
 .sayfa-baslik h3 {
-  color: rgb(30, 39, 71);
+  color: var(--main-color);
   font-weight: bold;
 }
 .sayfa-baslik p {
@@ -91,7 +94,7 @@
   .pozisyon {
     width: 100%;
     height: 100vh;
-    background-color: rgb(30, 39, 71);
+    background-color: var(--ana-renk);
     position: fixed;
     z-index: 1;
     top: 0;
@@ -104,41 +107,8 @@
   margin-top: 100px;
 }
 
-.hizmetlerimiz {
-  background-color: #f4b70b;
-}
 
-.footer {
-  background-color: #2c3e50;
-  height: 300px;
-  color: #95a5a6;
-}
-.footer p {
-  font-size: 18px;
-}
-.footer-sutun {
-  height: 300px;
-}
 
-/* Pörtföyümüz Sayfası */
-
-.kurumsal-calisma {
-  height: 150px;
-}
-
-/* Blog Sayfası */
-.devam a:hover {
-  color: black !important;
-}
-
-/* İletişim Sayfası */
-
-.simgeler {
-  font-size: 16px;
-}
-.deneme {
-  color: black;
-}
 .dropdown-menu li {
   background-color: rgb(4, 4, 4);
   color: rgb(0, 0, 0);
@@ -151,11 +121,11 @@
   opacity: 1 !important;
 }
 .modal-title {
-  color: white;
+  color: var(--white);
 }
 .input-group input {
   background-color: rgb(0, 0, 0) !important;
-  border-color: black !important;
+  border-color: var(--black) !important;
 }
 .input-group div {
   background-color: rgb(255, 254, 254) !important;
@@ -167,17 +137,17 @@
 }
 
 .input-group input:focus {
-  background-color: black;
+  background-color: var(--black);
   border: 5px solid rgb(0, 0, 0) !important;
   outline: 0px !important;
   box-shadow: none !important;
 }
 .container2 button {
-  background-color: black;
+  background-color: var(--black);
   border: none;
 }
 #exampleCheck1 {
-  accent-color: #000000;
+  accent-color: var(--black);
 }
 .modal-dialog {
   position: absolute;
@@ -190,83 +160,11 @@
   overflow-y: auto;
 }
 .nav-item button:focus {
-  background-color: black;
+  background-color: var(--black);
   border: 5px solid rgba(0, 0, 0, 0) !important;
   outline: 0px !important;
   box-shadow: none !important;
-  border: navy;
-}
-.container .kart {
-  border: 2px solid rgb(146, 146, 146);
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
-    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
-    rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  margin-bottom: 14px;
-}
-.container .buton {
-  background-color: transparent;
-}
-.container .buton a {
-  color: black;
-  border-bottom: 2px solid rgba(146, 146, 146, 0.284);
-  margin-bottom: 10px;
-
-  background: linear-gradient(to right, rgb(147, 147, 147), rgb(119, 119, 119)),
-    linear-gradient(to right, rgb(65, 37, 37), rgb(108, 58, 58), rgb(0, 0, 0));
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-}
-
-.container .buton a:hover {
-  color: black;
-  border-bottom: 1px solid rgba(146, 146, 146, 0.284);
-  margin-bottom: 10px;
-
-  background-size: 0 3px, 100% 3px;
-}
-
-.container .kart {
-  position: relative;
-}
-
-.container .kart:before,
-.container .kart:after {
-  content: "";
-  position: absolute;
-  left: -2px;
-  top: -2px;
-  background: linear-gradient(
-    45deg,
-    #2b2a2b,
-    #0b0b45,
-    #150f6a,
-    #16128d,
-    #00084b,
-    #4a98f8,
-    #1212c0,
-    #6d4ad0,
-    #461e65,
-    #012ff8
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: steam 20s linear infinite;
-}
-
-@keyframes steam {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
+  border: var(--main-color);
 }
 
 body {
@@ -288,8 +186,8 @@ body {
 }
 
 .caption .border {
-  background-color: #111;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
   padding: 20px;
   font-size: 35px;
   text-transform: uppercase;
@@ -336,11 +234,12 @@ body {
 h1 {
   overflow: hidden;
   text-align: center;
+  font-family: var(--yazi-tipi);
 }
 
 h1:before,
 h1:after {
-  background-color: #ffffff;
+  background-color: var(--white);
   content: "";
   display: inline-block;
   height: 1px;
@@ -382,8 +281,8 @@ h1 {
 }
 
 h1:hover {
-  color: #ffffff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  color: var(--white);
+  text-shadow: 0 0 10px var(--white), 0 0 20px var(--white), 0 0 30px #fff;
 }
 .generic .container .about {
   box-shadow: rgba(255, 255, 255, 0.4) -5px 5px,
@@ -404,7 +303,7 @@ h1:hover {
   font-size: 26px;
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: var(--white);
   color: #333;
   cursor: pointer;
   outline: none;
@@ -417,7 +316,7 @@ h1:hover {
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: #333;
-  color: #fff;
+  color: var(--white);
 }
 
 @media (max-width: 992px) {
@@ -463,16 +362,6 @@ h1:hover {
   animation-fill-mode: both;
   animation-name: btnEntrance;
 }
-/* zoomIn */
-/* @keyframes btnEntrance { 
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  to {
-    opacity: 1;
-  }    
-} */
 
 /* fadeInUp */
 @keyframes btnEntrance {
@@ -517,7 +406,7 @@ h1:hover {
   background-color: transparent;
   padding: 30px 0px;
   margin: 10px;
-  color: #fff;
+  color: var(--white);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -529,7 +418,7 @@ h1:hover {
 }
 
 .footer {
-  background-color: #112130;
+  background-color: var(--footer);
   height: 300px;
   color: #95a5a6;
 }
@@ -544,7 +433,7 @@ h1:hover {
 .blog,
 .self,
 .movies {
-  background-color: rgb(30, 39, 71);
+  background-color: var(--main-color);
 }
 
 .self .container .row .w .hedefler .self-img {
@@ -606,7 +495,7 @@ button:hover {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: var(--white);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -628,7 +517,7 @@ button:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: var(--white);
   border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
@@ -654,9 +543,9 @@ button:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid var(--white);
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent var(--white);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -668,9 +557,9 @@ button:hover {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid var(--white);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent var(--white) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -681,7 +570,7 @@ button:hover {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: var(--white);
   position: relative;
   border-radius: 6px;
 }
@@ -703,9 +592,9 @@ button:hover {
   /* Make sure that all arrows are pointing leftwards */
   .container2::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid var(--white);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent var(--white) transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -724,7 +613,7 @@ button:hover {
   background: #42bec200;
   padding: 20px 0px;
   margin: 10px;
-  color: #fff;
+  color: var(--white);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -752,7 +641,7 @@ ol.s {
 
 .owl-carousel .item a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 .owl-carousel .item:hover span {
@@ -773,4 +662,25 @@ ol.s {
   background: url(resimler/pota.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#contactForm {
+  height: 70vh;
+  width: 100%;
+}
+.nav-item .selected {
+  color: blueviolet;
+}
+
+#contactForm {
+  background-color: var(--main-color);
+}
+
+.ust-kisim4 {
+  color: var(--ana-renk);
+  background-color: #2c3e50;
+}
+.error {
+  color: red;
+  font-family: var(--yazi-tipi);
 }

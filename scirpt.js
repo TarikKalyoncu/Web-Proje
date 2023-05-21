@@ -1,20 +1,5 @@
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
@@ -38,10 +23,6 @@ function scrollFunction() {
 }
 
 backToTopButton.addEventListener("click", smoothScrollBackToTop);
-
-// function backToTop() {
-//   window.scrollTo(0, 0);
-// }
 
 function smoothScrollBackToTop() {
   const targetPosition = 0;
@@ -88,136 +69,76 @@ $(document).ready(function () {
   });
 });
 
-
-
 let card = document.querySelector(".x");
-let button = document.querySelector('#photo1');
+let button = document.querySelector("#photo1");
 
-button.addEventListener("click", ()=>{
- 
-  card.classList.add("active")
+button.addEventListener("click", () => {
+  card.classList.add("active");
 
   card2.classList.remove("active");
   card4.classList.remove("active");
   card5.classList.remove("active");
   card6.classList.remove("active");
- 
-
-})
-
-
+});
 
 let card2 = document.querySelector(".y");
-let button2 = document.querySelector('#photo2');
+let button2 = document.querySelector("#photo2");
 
-button2.addEventListener("click", ()=>{
- 
-  card2.classList.add("active")
+button2.addEventListener("click", () => {
+  card2.classList.add("active");
   card.classList.remove("active");
   card3.classList.remove("active");
   card4.classList.remove("active");
   card5.classList.remove("active");
   card6.classList.remove("active");
- 
-
-})
+});
 
 var x;
 let card3 = document.querySelector(".z");
-let button3 = document.querySelector('#photo3');
+let button3 = document.querySelector("#photo3");
 
-button3.addEventListener("click", ()=>{
- 
-
- 
-  
-  
-  
-  card3.classList.add("active")
+button3.addEventListener("click", () => {
+  card3.classList.add("active");
 
   card.classList.remove("active");
   card2.classList.remove("active");
   card4.classList.remove("active");
   card5.classList.remove("active");
   card6.classList.remove("active");
- 
-
-
-
-
-})
-
-
+});
 
 let card4 = document.querySelector(".h");
-let button4 = document.querySelector('#photo4');
+let button4 = document.querySelector("#photo4");
 
-button4.addEventListener("click", ()=>{
- 
-  card4.classList.add("active")
+button4.addEventListener("click", () => {
+  card4.classList.add("active");
   card.classList.remove("active");
   card2.classList.remove("active");
   card3.classList.remove("active");
   card5.classList.remove("active");
   card6.classList.remove("active");
- 
-
-})
-
+});
 
 let card5 = document.querySelector(".j");
-let button5 = document.querySelector('#photo5');
+let button5 = document.querySelector("#photo5");
 
-button5.addEventListener("click", ()=>{
- 
-  card5.classList.add("active")
+button5.addEventListener("click", () => {
+  card5.classList.add("active");
   card.classList.remove("active");
   card2.classList.remove("active");
   card4.classList.remove("active");
   card3.classList.remove("active");
   card6.classList.remove("active");
- 
-
-})
-
+});
 
 let card6 = document.querySelector(".k");
-let button6 = document.querySelector('#photo6');
+let button6 = document.querySelector("#photo6");
 
-button6.addEventListener("click", ()=>{
- 
-  card6.classList.add("active")
+button6.addEventListener("click", () => {
+  card6.classList.add("active");
   card.classList.remove("active");
   card2.classList.remove("active");
   card4.classList.remove("active");
   card5.classList.remove("active");
   card3.classList.remove("active");
- 
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
+});

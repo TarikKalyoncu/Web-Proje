@@ -107,7 +107,7 @@ document.querySelector("#btnSearch").addEventListener("click", () => {
                 </div>
                 <div class="col-lg-4">
                 <hr />
-                <h3> HESAP BİLGİLERİ  </h3>
+                <h3> Blizt BİLGİLERİ  </h3>
                 <div class="card-title"> <span class="font-weight-bold"> Oyun Sayısı: </span>${data.perfs.blitz.games}</div>
                 <div class="card-title"><span class="font-weight-bold"> Oyuncu Skoru:</span> ${data.perfs.blitz.rating}</div>
               
@@ -115,7 +115,7 @@ document.querySelector("#btnSearch").addEventListener("click", () => {
                 </div>
                 <div class="col-lg-4">
                 <hr />
-                <h3> HESAP BİLGİLERİ  </h3>
+                <h3> Puzzle BİLGİLERİ  </h3>
                 <div class="card-title"> <span class="font-weight-bold"> Oyun Sayısı: </span>${data.perfs.puzzle.games}</div>
                 <div class="card-title"><span class="font-weight-bold"> Oyuncu Skoru:</span> ${data.perfs.puzzle.rating}</div>
               

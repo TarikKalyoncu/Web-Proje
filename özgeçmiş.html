@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teknoloji Şirket Sitesi</title>
+    <title>Özgeçmiş Sayfası</title>
     
  
     <link rel="stylesheet" href="stil.css" />
+    <link rel="stylesheet" href="variables.css">
    
     <link
       rel="stylesheet"
@@ -15,9 +16,10 @@
     />
 
 
-
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="resimler/t.icon.png" class="border-5">
 
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -78,10 +80,10 @@
                 </a>
                 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item " href="şehrim.html">Şehir</a></li>
+           
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="mirasımız.html">Mirasımız</a></li>
                 </ul>
                 
               </li>
@@ -92,7 +94,7 @@
                 <span class="ayrac">|</span>
               </li>
               <li class="nav-item d-flex align-items-center p-2">
-                <a class="nav-link px-4k" href="iletisim.html">İletişim</a>
+                <a class="nav-link px-4k" href="iletişim.html">İletişim</a>
                 <span class="ayrac">|</span>
               </li>
               <li class="nav-item d-flex align-items-center p-2">
@@ -127,26 +129,26 @@
 
                       </div>
                       <div class="modal-body container2">
-                        <form>
+                        <form action="post.php" method="post">
                           <div class="input-group mb-4">
                             <div class="input-group-text rounded-0 deneme  text-white ">
                               <i class="fa-solid fa-user" style="color: #000000;"></i>
                             </div>
-                            <input type="text" class="form-control rounded-0 border-dark text-white bg-transparent"
+                            <input name="text" class="form-control rounded-0 border-dark text-white bg-transparent"
                               placeholder="NAME *" required>
                           </div>
                           <div class="input-group">
                             <div class="input-group-text rounded-0 bg-danger border-dark text-white">
                               <i class="fa-solid fa-key" style="color: #000000;"></i>
                             </div>
-                            <input type="email" class="form-control rounded-0  text-white bg-transparent"
+                            <input name="email" class="form-control rounded-0  text-white bg-transparent"
                           placeholder=" EMAIL " required>  
                           </div>
                           <div class="mb-3 form-check mt-2">
                             <input type="checkbox" class="form-check-input " id="exampleCheck1">
                             <label class="form-check-label " for="exampleCheck1" style="color: white;">Check me out</label>
                           </div>
-                          <button type="submit btn" class="btn btn-danger">Giriş Yap</button>
+                         <input type="submit" value="gönder">
                         </form>
 
                       </div>
@@ -178,38 +180,38 @@
     <div class="timeline mt-5 mb-5">
         <div class="container2 left ">
           <div class="content">
+            <h2>2022</h2>
+            <p>Üniversite 1. sınıfa başladım. Bölüm derslerini seviyordum fakat diğer dersler hakkında böyle söyleyemezdim. Çalışmaların arttığı bir yıldı benim için. Kendimi geliştirmeye odaklandığım seneydi.</p>
+          </div>
+        </div>
+        <div class="container2 right">
+          <div class="content">
+            <h2>2021</h2>
+            <p>Sakarya Üniversitesi Bilgisayar Mühendisliğini kazandım fakat zorunlu olmasa da 1 sene hazırlık okumaya karar verdim. Çok doğru bir karardı benim için kendime her konuda çok şey kattığım yıl oldu benim için. </p>
+          </div>
+        </div>
+        <div class="container2 left">
+          <div class="content">
+            <h2>2020</h2>
+            <p>Yks sınavına hazırlanmak için Lisemi bırakıp Açık Öğretim Lisesine geçtim. Bunu yapmamdaki amacım daha çok zaman elde edip bu zamanı ders çalışarak geçirmekti çünkü Lise hayatımda derslerime çok çalışmadım hayallerim vardı ama ders olarak eksiktim. Doğru bir karardı benim için.</p>
+          </div>
+        </div>
+        <div class="container2 right">
+          <div class="content">
             <h2>2017</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-          </div>
-        </div>
-        <div class="container2 right">
-          <div class="content">
-            <h2>2016</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <p>Liseyi Halide Edip Adıvar Anadolu Lisesinde okudum. Eskisi gibi etkinliklere katıldığım bir dönem değildi. Matematik ve Fizik dersi hariç diğer dersleri önemsemiyordum. Kendimi geliştirme açısından yetersiz yıllardı. Hayat görüşü olaraka daha çocuk kafasında olduğum yıllardı. </p>
           </div>
         </div>
         <div class="container2 left">
           <div class="content">
-            <h2>2015</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <h2>2014</h2>
+            <p>Arif Nihat Asya Ortaokuluna geçtim. Sosyal anlamda kendimi geliştirdiğim bir süreçti. Derslerimi ve hocamı çok severdim. Bu senelerde çok farklı sosyal etkinliklere katıldım. Münazara takımı, Futbol takımı gibi etkinliklere katıldım. </p>
           </div>
         </div>
         <div class="container2 right">
           <div class="content">
-            <h2>2012</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-          </div>
-        </div>
-        <div class="container2 left">
-          <div class="content">
-            <h2>2011</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-          </div>
-        </div>
-        <div class="container2 right">
-          <div class="content">
-            <h2>2007</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <h2>2010</h2>
+            <p>İlkokula başladım.Genç Osman İlkokuluna gittim.4 sene bu okulda okudum.Bu okulda ilk gittiğim kulüp Satranç. İlkokulda tanıştım bu oyunla ve abimle beraber oynamaya başladık. Fakat en seviğim hobim Futbol oynamaktı.</p>
           </div>
         </div>
       </div>
@@ -266,23 +268,24 @@
 
     
 
-<div class="container-fluid footer">
-  <div class="row">
-    <div
-      class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center"
-    >
-      <div class="icons">
-        <i class="fa-brands fa-instagram-square fa-3x me-2"></i>
-        <i class="fa-brands fa-facebook-square fa-3x me-2"></i>
-        <i class="fa-brands fa-twitter-square fa-3x me-2"></i>
-        <i class="fa-brands fa-youtube fa-3x"></i>
-      </div>
-      <p class="mt-3">© Copyright 2022 Tüm Hakları Saklıdır.</p>
-      <p>Tasarım Bilişim Teknoloji</p>
-    </div>
-  </div>
-</div>
 
+      <footer class="container-fluid footer">
+        <div class="row">
+          <div
+            class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="icons">
+              <i class="fa-brands fa-instagram-square fa-3x me-2"></i>
+              <i class="fa-brands fa-facebook-square fa-3x me-2"></i>
+              <i class="fa-brands fa-twitter-square fa-3x me-2"></i>
+              <i class="fa-brands fa-youtube fa-3x"></i>
+            </div>
+            <p class="mt-3">© Copyright 2023 Tüm Hakları Saklıdır.</p>
+            <p>Tarık Kalyoncu</p>
+          </div>
+        </div>
+      </footer>
+      
 
 
 
